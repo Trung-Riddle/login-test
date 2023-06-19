@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.btn-submit:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+#theme:checked ~ .App {
+  filter: invert(1);
+}
+.App {
+  width: 100%;
+  height: 100vh;
+  background-color: #ffffff;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+.main {
+  max-width: 1300px;
+  width: 100%;
+  height: 100vh;
+  margin: 0 auto;
+}
+

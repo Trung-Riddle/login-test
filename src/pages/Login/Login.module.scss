@@ -1,0 +1,17 @@
+.input-pass {
+    position: relative;
+    z-index: 10;
+}
+.btn-show-hide {
+    position: absolute;
+    top: 76%;
+    right: 5px;
+    transform: translateY(-50%);
+    z-index: 11;
+}
+.formlogin {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
